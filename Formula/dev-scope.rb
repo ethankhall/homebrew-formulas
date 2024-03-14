@@ -1,24 +1,24 @@
 class DevScope < Formula
   desc "A tool to help diagnose errors, setup machines, and report bugs to authors."
-  version "2024.2.22"
+  version "2024.2.23"
   on_macos do
     on_arm do
-      url "https://github.com/ethankhall/scope/releases/download/v2024.2.22/dev-scope-aarch64-apple-darwin.tar.xz"
-      sha256 "5c84429a6389a68879c125bc0615656dab3af1f9934edd18b7ccb39e27b13993"
+      url "https://github.com/ethankhall/scope/releases/download/v2024.2.23/dev-scope-aarch64-apple-darwin.tar.xz"
+      sha256 "5a2b01f7b9821a1eb7d3d3dc95f9e8c6c772c91c0c1c1b8dead1076ea41862e1"
     end
     on_intel do
-      url "https://github.com/ethankhall/scope/releases/download/v2024.2.22/dev-scope-x86_64-apple-darwin.tar.xz"
-      sha256 "4c0fa1f8dc4eb14cf58ff8b46764da58e115cf19008aa7e6e6804cdd4a3757a3"
+      url "https://github.com/ethankhall/scope/releases/download/v2024.2.23/dev-scope-x86_64-apple-darwin.tar.xz"
+      sha256 "930d231cc833ba5a4fa3b34b0f6e1bf251fa406ec354644c77a0a9b947d47adb"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/ethankhall/scope/releases/download/v2024.2.22/dev-scope-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d39ccac5af1210a8485138b24cff5f54cd9e5230cbfb1ddd21c4a23809e5526f"
+      url "https://github.com/ethankhall/scope/releases/download/v2024.2.23/dev-scope-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "92b180a2cc7eca77501709b3e43bed9797c7a45debbffe4fd7a134eab8e62933"
     end
     on_intel do
-      url "https://github.com/ethankhall/scope/releases/download/v2024.2.22/dev-scope-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5abc4159a4ca6d161a02930322ecf95beb9b4f2418a06204453f7c13d9e9865f"
+      url "https://github.com/ethankhall/scope/releases/download/v2024.2.23/dev-scope-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c5246d26bec96ff09f5e775b5bf48009be71cdb4939773b6f53c2e59251eb316"
     end
   end
   license "BSD-3-Clause"
